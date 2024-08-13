@@ -69,3 +69,7 @@ docker compose --profile linux down
 Access the app at http://localhost:8501. In the sidebar, enter the path to your code folder and click "Process files". Then start asking questions about your code in the main chat. The detailed mode toggle switches between asking the QA agent only (detailedMode=true) and asking an agent which uses the QA agent as a tool (detailedMode=false). In testing, the agent appears to summarize rather than giving a technical response as opposed to the QA agent only.
 
 The Neo4j vector database can be explored at http://localhost:7474.
+
+## Query:
+
+What is the purpose of LLMSingleActionAgent() function?
