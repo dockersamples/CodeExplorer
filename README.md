@@ -35,6 +35,20 @@ NOTE: If using `EMBEDDING_MODEL=sentence_transformer`, uncomment code in `requir
 
 NOTE: Make sure to set the `OLLAMA_BASE_URL=http://llm:11434` in the `.env` file when using Ollama docker container.
 
+## Project Structure
+
+* `LICENSE`: Contains the project's license information.
+* `README.md`: The main README file, providing an introduction and overview of the project.
+* `CONTRIBUTING.md`: Guidelines for contributing to the project.
+* `CODE_OF_CONDUCT.md`: The code of conduct for the project.
+* `.env` and `.example.env`: Configuration files for environment variables.
+* `agent.py`, `bot.py`, `chains.py`, `db.py`, and `utils.py`: Core logic and functionality of the project.
+* `docker-compose.yml`: Defines and manages multi-container Docker applications.
+* `Dockerfile` and `bot.Dockerfile`: Instructions for building Docker images.
+* `requirements.txt`: Lists the project's dependencies and their versions.
+* `images`: Contains visual assets used in the README and other documentation.
+
+
 # Docker (Linux only)
 
 **Build only**
